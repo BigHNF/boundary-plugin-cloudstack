@@ -1,0 +1,72 @@
+{
+  "description" : "Collects statistical metrics from CLoudStack Management Server.",
+  "icon" : "icon.png",
+
+  "command_lua": "boundary-meter init.lua",
+  "postExtract_lua" : "",
+
+  "metrics" : [
+    "CLOUDSTACK_"
+  ],
+
+  "paramSchema": [
+    {
+      "title": "CloudStack Host",
+      "name": "serverHost",
+      "description": "The CloudStack service host (default: 'localhost').",
+      "type" : "string",
+      "default" : "localhost",
+      "required" : false
+    },
+    {
+      "title": "CloudStack Port",
+      "name": "serverPort",
+      "description": "The CloudStack service port (default: 8080).",
+      "type" : "integer",
+      "default" : 8080,
+      "required" : false
+    },
+
+    {
+      "title": "CloudStack API Key",
+      "name": "serverApiKey",
+      "description": "The CloudStack Account API Key for signing requests (required).",
+      "type" : "string",
+      "required" : true
+    },
+    {
+      "title": "CloudStack Secret Key",
+      "name": "serverSecretKey",
+      "description": "The CloudStack Account Secret Key for signing requests (required).",
+      "type" : "string",
+      "required" : true
+    },
+
+    {
+      "title": "Poll Retry Count",
+      "name": "pollRetryCount",
+      "description": "The number of times to retry failed HTTP requests (default: 5, infinite: 0).",
+      "type" : "integer",
+      "default" : 5,
+      "required" : false
+    },
+    {
+      "title": "Poll Retry Delay",
+      "name": "pollRetryDelay",
+      "description": "The interval (in milliseconds) to wait before retrying a failed request (default: 3000).",
+      "type" : "integer",
+      "default" : 5,
+      "required" : false
+    },
+
+    {
+      "title": "Poll Interval",
+      "name": "pollInterval",
+      "description": "How often (in milliseconds) to poll the CloudStack node for metrics (default: 5000).",
+      "type" : "integer",
+      "default" : 5000,
+      "required" : false
+    }
+  ]
+
+}

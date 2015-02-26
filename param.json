@@ -1,0 +1,12 @@
+{
+  "serverHost": "localhost",
+  "serverPort": 8080,
+
+  "apiKey": "hZBRPnUA7KgR5Cy0SrVUmMYq2QteSU3i7FIilxu75zIMvL7HRgNgi8BtlmiGyVNgJ982tWe9RdenTwZXBdB93g",
+  "secretKey": "5Xc6WsYCWQqymZI8xrAnXQzRFfChcWqunDw1EKurhb83J48G2ugm5RyO8BlGCZb7DUINVQdBcA6ZSQeHvJVYcA",
+
+  "pollRetryCount": 3,
+  "pollRetryDelay": 0,
+
+  "pollInterval": 1000
+}

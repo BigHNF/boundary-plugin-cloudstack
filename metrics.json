@@ -1,0 +1,244 @@
+{
+  "result": [
+    {
+      "name": "CLOUDSTACK_MEMORY_TOTAL",
+      "displayName": "CloudStack Memory Total",
+      "description": "Total RAM on the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS Memory Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_MEMORY_USED",
+      "displayName": "CloudStack Memory Used",
+      "description": "Used RAM on the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS Memory Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_CPU_TOTAL",
+      "displayName": "CloudStack CPU Total",
+      "description": "Total CPUs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS CPU Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_CPU_USED",
+      "displayName": "CloudStack CPU Used",
+      "description": "Used CPUs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS CPU Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_STORAGE_TOTAL",
+      "displayName": "CloudStack Storage Total",
+      "description": "Total STORAGE for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS Storage Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_STORAGE_USED",
+      "displayName": "CloudStack Storage Used",
+      "description": "Used STORAGE for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS Storage Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_STORAGE_ALLOCATED_TOTAL",
+      "displayName": "CloudStack Storage Allocated Total",
+      "description": "Total STORAGE ALLOCATED for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS StorageAlloc Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_STORAGE_ALLOCATED_USED",
+      "displayName": "CloudStack Storage Allocated Used",
+      "description": "Used STORAGE ALLOCATED for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS StorageAlloc Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_VIRTUAL_NETWORK_PUBLIC_IP_TOTAL",
+      "displayName": "CloudStack Virtual Network Public IP Total",
+      "description": "Total VIRTUAL NETWORK PUBLIC IPs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS VNetPubIP Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_VIRTUAL_NETWORK_PUBLIC_IP_USED",
+      "displayName": "CloudStack Virtual Network Public IP Used",
+      "description": "Used VIRTUAL NETWORK PUBLIC IPs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS VNetPubIP Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_PRIVATE_IP_TOTAL",
+      "displayName": "CloudStack Private IP Total",
+      "description": "Total PRIVATE IPs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS PrivIP Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_PRIVATE_IP_USED",
+      "displayName": "CloudStack Private IP Used",
+      "description": "Used PRIVATE IPs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS PrivIP Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_SECONDARY_STORAGE_TOTAL",
+      "displayName": "CloudStack Secondary Storage Total",
+      "description": "Total SECONDARY STORAGE for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS SecStorage Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_SECONDARY_STORAGE_USED",
+      "displayName": "CloudStack Secondary Storage Used",
+      "description": "Used SECONDARY STORAGE for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS SecStorage Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_VLAN_TOTAL",
+      "displayName": "CloudStack VLAN Total",
+      "description": "Total VLAN for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS VLAN Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_VLAN_USED",
+      "displayName": "CloudStack VLAN Used",
+      "description": "Used VLAN for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS VLAN Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_DIRECT_ATTACHED_PUBLIC_IP_TOTAL",
+      "displayName": "CloudStack Direct Attached Public IP Total",
+      "description": "Total DIRECT ATTACHED PUBLIC IPs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS DirAttPubIP Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_DIRECT_ATTACHED_PUBLIC_IP_USED",
+      "displayName": "CloudStack Direct Attached Public IP Used",
+      "description": "Used DIRECT ATTACHED PUBLIC IPs for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS DirAttPubIP Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_LOCAL_STORAGE_TOTAL",
+      "displayName": "CloudStack Local Storage Total",
+      "description": "Total LOCAL STORAGE for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS LocStorage Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_LOCAL_STORAGE_USED",
+      "displayName": "CloudStack Local Storage Used",
+      "description": "Used LOCAL STORAGE for the source (zone).",
+      "unit": "integer",
+      "displayNameShort": "CS LocStorage Used",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_ACTIVE_VIEWER_SESSIONS",
+      "displayName": "CloudStack Active Viewer Sessions",
+      "description": "Active viewer sessions per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Active Viewer Sessions",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_EVENTS_INFO",
+      "displayName": "CloudStack Events INFO",
+      "description": "Count of INFO events per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Events INFO",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_EVENTS_WARN",
+      "displayName": "CloudStack Events WARN",
+      "description": "Count of WARN events per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Events WARN",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_EVENTS_ERROR",
+      "displayName": "CloudStack Events ERROR",
+      "description": "Count of ERROR events per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Events ERROR",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_ALERTS",
+      "displayName": "CloudStack Alerts",
+      "description": "Count of ALERTS per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Alerts",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_ALERTS_MEMORY",
+      "displayName": "CloudStack Alerts Memory",
+      "description": "Count of MEMORY-related ALERTS per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Alerts Memory",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_ALERTS_CPU",
+      "displayName": "CloudStack Alerts CPU",
+      "description": "Count of CPU-related ALERTS per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Alerts CPU",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_ALERTS_STORAGE",
+      "displayName": "CloudStack Alerts Storage",
+      "description": "Count of STORAGE-related ALERTS per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Alerts Storage",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_ACCOUNTS_TOTAL",
+      "displayName": "CloudStack Accounts Total",
+      "description": "Total count of ACCOUNTS per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Accounts Total",
+      "defaultAggregate": "avg"
+    },
+    {
+      "name": "CLOUDSTACK_ACCOUNTS_ENABLED",
+      "displayName": "CloudStack Accounts Enabled",
+      "description": "Total count of ENABLED ACCOUNTS per entire infrastructure.",
+      "unit": "integer",
+      "displayNameShort": "CS Accounts Enabled",
+      "defaultAggregate": "avg"
+    }
+  ]
+}
