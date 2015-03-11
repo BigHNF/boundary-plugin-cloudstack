@@ -2,17 +2,26 @@
 
 Tracks Apache CloudStack general infrastructure metrics (mostly aggregated by zone).
 
-## Prerequisites
+### Prerequisites
+
+|     OS    | Linux | Windows | SmartOS | OS X |
+|:----------|:-----:|:-------:|:-------:|:----:|
+| Supported |   v   |    v    |    v    |  v   |
+
+- Written in pure Lua/Luvit (embedded in `boundary-meter`) therefore **no dependencies** are required.
+- Metrics are collected via HTTP requests, therefore **all OSes** should work (tested on **Debian-based Linux** distributions).
+
+#### Boundary Meter Versions V4.0 Or Greater REQUIRED
+(to get the new meter - curl -fsS -d '{"token":"api.<Your API Token Here>"}' -H 'Content-Type: application/json' https://meter.boundary.com/setup_meter > setup_meter.sh && chmod +x setup_meter.sh && ./setup_meter.sh)
 
 - A working (and *configured*) **CloudStack Management Server** running at the configured endpoint (usually `localhost:8080`).
-- Metrics are collected via HTTP requests, therefore **all OSes** should work (tested on **Debian-based Linux** distributions).
-- Written in pure Lua/Luvit (embedded in `boundary-meter`) therefore **no dependencies** are required.
 
-## Plugin Setup
+### Plugin Setup
 
 No special setup is required (except basic configuration of options).
 
-## Configurable Setings
+#### Plugin Configuration Fields
+
 |Setting Name          |Identifier      |Type     |Description                                                                              |
 |:---------------------|----------------|---------|:----------------------------------------------------------------------------------------|
 |CloudStack Host       |serverHost      |string   |The CloudStack service host for the node (default: 'localhost').                         |
@@ -23,7 +32,7 @@ No special setup is required (except basic configuration of options).
 |Poll Retry Delay      |pollRetryDelay  |integer  |The interval (in milliseconds) to wait before retrying a failed request (default: 3000). |
 |Poll Interval         |pollInterval    |integer  |How often (in milliseconds) to poll the Couchbase node for metrics (default: 5000).      |
 
-## Collected Metrics
+### Metrics Collected
 
 |Metric Name                                |Description                                                |
 |:------------------------------------------|:----------------------------------------------------------|
@@ -58,5 +67,5 @@ No special setup is required (except basic configuration of options).
 |CLOUDSTACK_ACCOUNTS_TOTAL                  |Total count of ACCOUNTS per entire infrastructure.         |
 |CLOUDSTACK_ACCOUNTS_ENABLED                |Total count of ENABLED ACCOUNTS per entire infrastructure. |
 
-## References
+### References
 [CloudStack REST API Reference](http://cloudstack.apache.org/docs/api/)
