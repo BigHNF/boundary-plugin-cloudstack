@@ -12,7 +12,15 @@ Tracks Apache CloudStack general infrastructure metrics (mostly aggregated by zo
 - Metrics are collected via HTTP requests, therefore **all OSes** should work (tested on **Debian-based Linux** distributions).
 
 #### Boundary Meter Versions V4.0 Or Greater REQUIRED
-(to get the new meter - curl -fsS -d '{"token":"api.<Your API Token Here>"}' -H 'Content-Type: application/json' https://meter.boundary.com/setup_meter > setup_meter.sh && chmod +x setup_meter.sh && ./setup_meter.sh)
+
+To get the new meter:
+
+    curl -fsS \
+        -d "{\"token\":\"<your API token here>\"}" \
+        -H "Content-Type: application/json" \
+        "https://meter.boundary.com/setup_meter" > setup_meter.sh
+    chmod +x setup_meter.sh
+    ./setup_meter.sh
 
 - A working (and *configured*) **CloudStack Management Server** running at the configured endpoint (usually `localhost:8080`).
 
