@@ -2,7 +2,9 @@
 
 Tracks Apache CloudStack general infrastructure metrics (mostly aggregated by zone).
 
-### Prerequisites
+## Prerequisites
+
+### Supported OS
 
 |     OS    | Linux | Windows | SmartOS | OS X |
 |:----------|:-----:|:-------:|:-------:|:----:|
