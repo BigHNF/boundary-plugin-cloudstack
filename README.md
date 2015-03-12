@@ -24,7 +24,7 @@ To get the new meter:
     chmod +x setup_meter.sh
     ./setup_meter.sh
 
-- A working (and *configured*) **CloudStack Management Server** running at the configured endpoint (usually `localhost:8080`).
+#### A working (and *configured*) **CloudStack Management Server** running at the configured endpoint (usually `localhost:8080`).
 
 ### Plugin Setup
 
